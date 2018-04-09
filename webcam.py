@@ -53,7 +53,7 @@ while True:
             person = le.inverse_transform(maxI)
             confidence = predictions[maxI]
             print(person, confidence)
-            if confidence < 0.7:
+            if confidence < 0.786:
                 person = 'Unknown'
 
             face_names.append(person.title())
